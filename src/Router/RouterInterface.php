@@ -1,4 +1,19 @@
 <?php
+/**
+ * 
+* 
+* Package: Myonxmvc
+* 
+* Author:  Dave Thornton
+* 
+* Filename: RouterInterface.php
+*  
+* Description: Interface for the Router class
+* 
+* Version:  1.0.0   
+* 
+* License: MIT
+ */
 
 declare(strict_types=1);
 namespace Myonxmvc\Router;
@@ -27,7 +42,7 @@ interface RouterInterface
      */
 
         
-    public function dispatch(string $method, string $url): void;
+    public function dispatch(string $url): void;
     
     
     
