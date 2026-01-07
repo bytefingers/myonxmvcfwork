@@ -1,0 +1,19 @@
+{
+    "name": "bytefingers/myonxmvc",
+    "description": "A simple mvc framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bytefingers\\Myonxmvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bytefingers",
+            "email": "david.thornton2610@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
