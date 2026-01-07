@@ -3,17 +3,36 @@
     "description": "A simple mvc framework",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/bytefingers/myonxmvcfwork/issues",
+        "source": "https://github.com/bytefingers/myonxmvcfwork"
+    },
     "autoload": {
         "psr-4": {
             "Bytefingers\\Myonxmvc\\": "src/"
         }
     },
+    "autoload-dev":{
+        "psr-4": {
+            "Bytefingers\\Myonxmvc\\tests\\": "tests"
+        }
+    },
     "authors": [
         {
             "name": "bytefingers",
-            "email": "david.thornton2610@gmail.com"
+            "email": "david.thornton2610@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*",
+        "ext-mbstring": "*",
+        "ext-iconv": "*"
+    }
 }
